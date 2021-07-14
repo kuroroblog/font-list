@@ -16,7 +16,7 @@ class Application(tk.Frame):
         # Labelについて : https://kuroro.blog/python/Pj4Z7JBNRvcHZvtFqiKD/
         label = tk.Label(text="test", width=15, height=5, bg="#008000", font=('arial', 50, 'underline'))
         # label Widgetをどのように配置するのか?
-        # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/s
+        # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
         label.pack()
 
     # フォント名に適応した、文字列を確認する関数

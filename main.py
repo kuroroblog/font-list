@@ -19,7 +19,7 @@ class Application(tk.Frame):
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
         label.pack()
 
-    # フォント名に適応した、文字列を確認する関数
+    # フォント名に適応した、文字列一覧を確認する関数
     def getFontNameList(self):
         i = 0
         # tkinter.font.families() : フォント名一覧を取得する。
